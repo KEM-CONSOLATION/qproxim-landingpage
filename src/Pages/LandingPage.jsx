@@ -7,6 +7,8 @@ import Navbar from "../Component/Navbar";
 import HeroSection from "../Component/HeroSection";
 import WhyChoose from "../Component/WhyChoose";
 import Features from "../Component/Features";
+import Transform from "../Component/Transform";
+import Footer from "../Component/Footer";
 const LandingPage = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -37,6 +39,8 @@ const LandingPage = () => {
       <HeroSection />
       <WhyChoose />
       <Features />
+      <Transform />
+      <Footer />
       {isVisible && (
         <button
           onClick={scrollToTop}
