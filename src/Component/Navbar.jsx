@@ -37,11 +37,11 @@ const Navbar = () => {
 
   return (
     <div
-      className={`py-[28px] z-[9999999] transition-all duration-300 ease-in-out  ${
+      className={`py-[28px] z-[9999999] transition-all duration-300 ease-in-out bg-white  ${
         !open ? "h-screen bg-#FFFFFF" : " bg-[#ffffff]"
       } ${
         isSticky
-          ? "fixed top-0 left-0 right-0 shadow-md bg-#FFFFFF  "
+          ? "fixed top-0 left-0 right-0 shadow-md bg-#FFFFFF "
           : "bg-[#ffffff]"
       }`}
     >
