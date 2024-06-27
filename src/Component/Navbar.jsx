@@ -99,7 +99,7 @@ const Navbar = () => {
           </div>
           {open === true ? (
             <div
-              className={`absolute top-[40px] right-4 lg:hidden cursor-pointer ${
+              className={`absolute top-[50px] right-4 lg:hidden cursor-pointer ${
                 !open ? "text-[#061C60]" : "text-[#297CEE]"
               }`}
               onClick={() => setOpen(false)}
@@ -108,7 +108,7 @@ const Navbar = () => {
             </div>
           ) : (
             <div
-              className={`absolute top-[40px] right-4 lg:hidden cursor-pointer ${
+              className={`absolute top-[50px] right-4 lg:hidden cursor-pointer ${
                 !open && "text-[#297CEE]"
               }`}
               onClick={() => setOpen(true)}
