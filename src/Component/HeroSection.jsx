@@ -1,8 +1,8 @@
 import HeroImage from "../assets/heroImage.png";
 const HeroSection = () => {
   return (
-    <div className="bg-[#F8F8F8]" data-aos="fade-up">
-      <div className="max-w-5xl  mx-5 lg:max-w-full lg:mx-[70px] py-[69px]">
+    <div className="bg-[#F8F8F8]">
+      <div className="max-w-5xl  mx-5 lg:max-w-full lg:mx-[70px] py-[69px] ">
         <div className=" max-w-[710px] mx-auto text-center grid gap-[24px] place-items-center">
           <p className="text-[#414141] font-[500] text-[36px] lg:text-[56px]">
             Transforming Healthcare with Seamless Integration
