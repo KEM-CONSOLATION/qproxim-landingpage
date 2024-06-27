@@ -9,6 +9,7 @@ import WhyChoose from "../Component/WhyChoose";
 import Features from "../Component/Features";
 import Transform from "../Component/Transform";
 import Footer from "../Component/Footer";
+import HowItWorks from "../Component/HowItWorks";
 const LandingPage = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -39,6 +40,7 @@ const LandingPage = () => {
       <HeroSection />
       <WhyChoose />
       <Features />
+      <HowItWorks />
       <Transform />
       <Footer />
       {isVisible && (

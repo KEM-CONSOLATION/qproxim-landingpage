@@ -47,7 +47,7 @@ const Navbar = () => {
     >
       <div className="max-w-5xl  mx-5 lg:max-w-full lg:mx-[70px]">
         <div className="flex flex-col gap-[20px] lg:flex lg:flex-row justify-between lg:items-center">
-          <div className="flex flex-col lg:flex lg:flex-row gap-[20px] lg:gap-[50px]  lg:items-center mt-5  lg:mb-0 lg:mt-0">
+          <div className="flex flex-col  lg:flex lg:flex-row gap-[20px] lg:gap-[50px]  lg:items-center mt-5  lg:mb-0 lg:mt-0">
             <div className="w-[150px]  ">
               <a href="#" onClick={() => setOpen(true)}>
                 <img src={Logo} alt="Logo" />
@@ -60,18 +60,18 @@ const Navbar = () => {
             >
               <ul className="text-[#595959] font-[400] grid lg:flex gap-5 lg:gap-10 list-none text-[18px]  ">
                 <li className=" " onClick={() => setOpen(true)}>
-                  <a href="#about">About Us</a>
+                  <a href="#about">About</a>
                 </li>
+                <li className="  " onClick={() => setOpen(true)}>
+                  <a href="#how">How it works</a>
+                </li>
+
                 <li className="  " onClick={() => setOpen(true)}>
                   <a href="#services">Services</a>
                 </li>
 
                 <li className="  " onClick={() => setOpen(true)}>
-                  <a href="#clients">Clients</a>
-                </li>
-
-                <li className="  " onClick={() => setOpen(true)}>
-                  <a href="#portfolio">Portfolio</a>
+                  <a href="#features">Features</a>
                 </li>
               </ul>
             </div>

@@ -18,15 +18,15 @@ const Footer = () => {
                   <a href="#about">About</a>
                 </li>
                 <li className="  ">
-                  <a href="#services">How it works</a>
+                  <a href="#how">How it works</a>
                 </li>
 
                 <li className="  ">
-                  <a href="#clients">Services</a>
+                  <a href="#services">Services</a>
                 </li>
 
                 <li className="  ">
-                  <a href="#portfolio">Features</a>
+                  <a href="#features">Features</a>
                 </li>
               </ul>
             </div>

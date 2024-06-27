@@ -2,7 +2,7 @@ import HeroImage from "../assets/heroImage.png";
 const HeroSection = () => {
   return (
     <div className="bg-[#F8F8F8]">
-      <div className="max-w-5xl  mx-5 lg:max-w-full lg:mx-[70px] py-[69px] ">
+      <div className="max-w-5xl  mx-5 lg:max-w-full lg:mx-[70px] py-[19px] lg:py-[69px] ">
         <div className=" max-w-[710px] mx-auto text-center grid gap-[24px] place-items-center">
           <p className="text-[#414141] font-[500] text-[36px] lg:text-[56px]">
             Transforming Healthcare with Seamless Integration
@@ -12,7 +12,7 @@ const HeroSection = () => {
           </p>
 
           <div className="">
-            <ul className=" grid  lg:flex items-center gap-5 my-5 lg:gap-[8px] list-none text-[18px]  ">
+            <ul className=" flex items-center  my-5 gap-[8px] list-none text-[18px]  ">
               <p className=" inline-grid text-center font-[400] text-[#126AE3]  py-[14px] px-[28px] border rounded-[5px] border-[#105CC4]">
                 Learn More
               </p>

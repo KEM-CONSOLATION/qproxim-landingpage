@@ -5,7 +5,7 @@ import Dashboard from "../assets/dashboard.svg";
 
 const Features = () => {
   return (
-    <div className="bg-[#F8F8F8]" data-aos="fade-up">
+    <div className="bg-[#F8F8F8]" id="features" data-aos="fade-up">
       <div className="max-w-5xl mx-5 lg:max-w-full lg:mx-[70px] py-[60px] lg:py-[170px]">
         <div className="max-w-[710px] mx-auto text-center">
           <p className="text-[#595959] font-[500] text-[26px] lg:text-[40px]">
