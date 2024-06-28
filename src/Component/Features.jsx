@@ -20,7 +20,7 @@ const Features = () => {
           }}
         > */}
         <div className="grid  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-[20px] mt-[40px] place-items-center">
-          <div className="relative border border-[#D0D0D0] w-[100%] max-h-[400px] h-full 2xl:h-[374px] rounded-[10px] px-[12px] py-[41px] text-center flex-shrink-0">
+          <div className="relative border border-[#D0D0D0] w-[100%] h-[374px] rounded-[10px] px-[12px] py-[41px] text-center flex-shrink-0">
             <div className="max-w-[50px] mx-auto mb-[29px]">
               <img src={Dashboard} alt="" className="w-full" />
             </div>
@@ -32,7 +32,7 @@ const Features = () => {
               diagnoses, lab reports, prescribed medications, and admission
               status.
             </p>
-            <div className=" absolute w-full bottom-[30px]">
+            <div className=" absolute w-full bottom-[30px] left-1/2 transform -translate-x-1/2">
               <p className="mt-[40px] text-center text-[14px] border border-[#297CEE] font-[500] inline-grid text-white py-[8px] px-[24px] rounded-[5px] bg-[#297CEE]">
                 Explore Feature
               </p>
@@ -50,7 +50,7 @@ const Features = () => {
               to manage operations, staff onboarding, and compliance.
             </p>
 
-            <div className=" absolute w-full bottom-[30px]">
+            <div className=" absolute w-full bottom-[30px] left-1/2 transform -translate-x-1/2">
               <p className="mt-[40px] text-center text-[14px] border border-[#297CEE] font-[500] inline-grid text-white py-[8px] px-[24px] rounded-[5px] bg-[#297CEE]">
                 Explore Feature
               </p>
@@ -67,7 +67,7 @@ const Features = () => {
               Secure and straightforward registration and login processes for
               enrollees and agents.
             </p>
-            <div className=" absolute w-full bottom-[30px]">
+            <div className=" absolute w-full bottom-[30px] left-1/2 transform -translate-x-1/2">
               <p className="mt-[40px] text-center text-[14px] border border-[#297CEE] font-[500] inline-grid text-white py-[8px] px-[24px] rounded-[5px] bg-[#297CEE]">
                 Explore Feature
               </p>
@@ -82,7 +82,7 @@ const Features = () => {
               Smooth onboarding process for enrollees and agents to capture
               essential personal and health information.
             </p>
-            <div className=" absolute w-full bottom-[30px]">
+            <div className=" absolute w-full bottom-[30px] left-1/2 transform -translate-x-1/2">
               <p className="mt-[40px] text-center text-[14px] border border-[#297CEE] font-[500] inline-grid text-white py-[8px] px-[24px] rounded-[5px] bg-[#297CEE]">
                 Explore Feature
               </p>
