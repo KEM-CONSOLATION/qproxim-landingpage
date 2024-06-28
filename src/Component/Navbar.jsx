@@ -35,6 +35,14 @@ const Navbar = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (!open) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [open]);
+
   return (
     <div
       className={`py-[28px] z-[9999999] transition-all duration-300 ease-in-out bg-white  ${
