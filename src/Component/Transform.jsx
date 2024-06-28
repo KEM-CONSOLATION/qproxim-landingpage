@@ -13,7 +13,7 @@ const Transform = () => {
           </p>
 
           <div className="">
-            <ul className=" grid  lg:flex items-center gap-5 my-5 lg:gap-[8px] list-none text-[18px]  ">
+            <ul className=" flex items-center gap-5 my-5 lg:gap-[8px] list-none text-[18px]  ">
               <p className=" inline-grid text-center font-[400] text-[#126AE3]  py-[14px] px-[28px] border rounded-[5px] border-[#105CC4]">
                 Contact Us
               </p>

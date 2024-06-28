@@ -47,7 +47,11 @@ const Navbar = () => {
     >
       <div className="max-w-5xl  mx-5 lg:max-w-full lg:mx-[70px]">
         <div className="flex flex-col gap-[20px] lg:flex lg:flex-row justify-between lg:items-center">
-          <div className="flex flex-col  lg:flex lg:flex-row gap-[20px] lg:gap-[50px]  lg:items-center mt-5  lg:mb-0 lg:mt-0">
+          <div
+            className={`flex flex-col ${
+              open === false && `items-center justify-center text-center`
+            } lg:flex lg:flex-row gap-[20px] lg:gap-[50px]  lg:items-center mt-5  lg:mb-0 lg:mt-0`}
+          >
             <div className="w-[150px]  ">
               <a href="#" onClick={() => setOpen(true)}>
                 <img src={Logo} alt="Logo" />
@@ -56,7 +60,9 @@ const Navbar = () => {
             <div
               className={`lg:flex lg:items-center ${
                 !open ? "text-[#061C60]" : "text-white"
-              } font-[400] ${!open ? "block h-full" : "hidden lg:block"}`}
+              } font-[400] ${
+                !open ? "block h-full my-[50px]" : "hidden lg:block"
+              }`}
             >
               <ul className="text-[#595959] font-[400] grid lg:flex gap-5 lg:gap-10 list-none text-[18px]  ">
                 <li className=" " onClick={() => setOpen(true)}>
@@ -84,13 +90,13 @@ const Navbar = () => {
           >
             <ul className=" grid  lg:flex items-center gap-5 lg:gap-[8px] list-none text-[14px]  ">
               <li
-                className=" inline-grid text-center font-[400] text-[#126AE3]  py-[8px] px-[24px] border rounded-[5px] border-[#105CC4]"
+                className=" inline-grid text-center font-[400] text-[#126AE3]  py-[14px] lg:py-[8px] px-[24px] border rounded-[5px] border-[#105CC4]"
                 onClick={() => setOpen(true)}
               >
                 <a href="#">Log in</a>
               </li>
               <li
-                className="text-center border border-[#297CEE] font-[500] inline-grid text-white py-[8px] px-[24px]  rounded-[5px] bg-[#297CEE]"
+                className="text-center border border-[#297CEE] font-[500] inline-grid text-white py-[14px] lg:py-[8px] px-[24px]  rounded-[5px] bg-[#297CEE]"
                 onClick={() => setOpen(true)}
               >
                 <a href="#">Sign up for free</a>
@@ -100,7 +106,7 @@ const Navbar = () => {
           {open === true ? (
             <div
               className={`absolute top-[50px] right-4 lg:hidden cursor-pointer ${
-                !open ? "text-[#061C60]" : "text-[#297CEE]"
+                !open ? "text-[#121212]" : "text-[#121212]"
               }`}
               onClick={() => setOpen(false)}
             >
@@ -108,8 +114,8 @@ const Navbar = () => {
             </div>
           ) : (
             <div
-              className={`absolute top-[50px] right-4 lg:hidden cursor-pointer ${
-                !open && "text-[#297CEE]"
+              className={`absolute top-[30px] right-4 lg:hidden cursor-pointer ${
+                !open && "text-[#121212]"
               }`}
               onClick={() => setOpen(true)}
             >

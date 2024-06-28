@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <div className="bg-[#297CEE]">
       <div className="max-w-5xl  mx-5 lg:max-w-full lg:mx-[70px] py-[80px] ">
-        <div className=" grid gap-[20px] lg:flex items-center justify-between">
-          <div className="grid gap-[20px] lg:flex items-center lg:gap-[60px] 2xl:gap-[100px]">
+        <div className=" grid gap-[20px] place-items-center text-center lg:text-left lg:flex items-center lg:justify-between">
+          <div className="grid gap-[20px] place-items-center text-center lg:text-left lg:flex items-center lg:gap-[60px] 2xl:gap-[100px]">
             <div className="w-[150px]  ">
               <img src={Logo} alt="Logo" className=" w-full" />
             </div>
@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className=" grid gap-[20px] md:flex items-center md:gap-[16px]">
+          <div className=" grid gap-[20px] place-items-center text-center lg:text-left md:flex items-center md:gap-[16px]">
             <p className=" text-white flex items-center gap-[4px] text-[16px] font-[400]">
               <span>
                 <MdOutlineLocalPhone />
@@ -51,12 +51,12 @@ const Footer = () => {
 
         <hr className=" border border-[#66A1F3] my-[16px]" />
 
-        <div className=" grid gap-[20px] md:flex items-center md:justify-between">
-          <div className=" text-[16px] font-[400] text-[#C2DAFA]">
+        <div className=" grid  place-items-center gap-[20px] md:flex items-center md:justify-between mt-[40px] lg:mt-0">
+          <div className="order-2 lg:order-1 text-[16px] font-[400] text-[#C2DAFA]">
             <p>© 2024 Q-Proxim. All rights reserved.</p>
           </div>
 
-          <div className=" flex items-center gap-[16px] text-white">
+          <div className="order-1 lg:order-2 flex items-center gap-[16px] text-white">
             <FaFacebookF />
             <FaLinkedinIn />
             <BsTwitterX />
