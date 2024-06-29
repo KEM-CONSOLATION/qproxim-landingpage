@@ -16,9 +16,11 @@ const HeroSection = () => {
               <p className=" inline-grid text-center font-[400] text-[#126AE3]  py-[14px] px-[14px] md:px-[28px] border rounded-[5px] border-[#105CC4]">
                 Learn More
               </p>
-              <p className="text-center border border-[#297CEE] font-[500] inline-grid text-white py-[14px] px-[14px] md:px-[28px]  rounded-[5px] bg-[#297CEE]">
-                Get Started
-              </p>
+              <a href="https://qproxim-app.netlify.app" target="_blank">
+                <p className="text-center border border-[#297CEE] font-[500] inline-grid text-white py-[14px] px-[14px] md:px-[28px]  rounded-[5px] bg-[#297CEE]">
+                  Get Started
+                </p>
+              </a>
             </ul>
           </div>
         </div>

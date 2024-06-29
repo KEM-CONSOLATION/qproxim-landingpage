@@ -101,13 +101,20 @@ const Navbar = () => {
                 className=" inline-grid text-center font-[400] text-[#126AE3]  py-[14px] lg:py-[8px] px-[24px] border rounded-[5px] border-[#105CC4]"
                 onClick={() => setOpen(true)}
               >
-                <a href="#">Log in</a>
+                <a href="https://qproxim-app.netlify.app" target="_blank">
+                  Log in
+                </a>
               </li>
               <li
                 className="text-center border border-[#297CEE] font-[500] inline-grid text-white py-[14px] lg:py-[8px] px-[24px]  rounded-[5px] bg-[#297CEE]"
                 onClick={() => setOpen(true)}
               >
-                <a href="#">Sign up for free</a>
+                <a
+                  href="https://qproxim-app.netlify.app/signup"
+                  target="_blank"
+                >
+                  Sign up for free
+                </a>
               </li>
             </ul>
           </div>
