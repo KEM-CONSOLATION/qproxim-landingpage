@@ -11,7 +11,7 @@ const WhyChoose = () => {
           className="overflow-x-auto mt-[40px]"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         > */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-5 gap-[20px] mt-[40px] place-items-center justify-items-center">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-[20px] mt-[40px] place-items-center justify-center ">
           <div className="hover:bg-[#478FF0] border border-[#85B4F5] w-[90%] h-[238px] rounded-[10px] px-[12px] 2xl:py-[57px] py-[30px] text-center flex-shrink-0">
             <p className="font-[500] text-[20px] text-[#FFFFFF]">
               Improved Patient Care
