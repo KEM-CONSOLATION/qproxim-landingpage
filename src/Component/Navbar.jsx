@@ -110,7 +110,7 @@ const Navbar = () => {
                 onClick={() => setOpen(true)}
               >
                 <a
-                  href="https://institution.kurenode.com//signup"
+                  href="https://institution.kurenode.com/auth/signup"
                   target="_blank"
                 >
                   Sign up for free

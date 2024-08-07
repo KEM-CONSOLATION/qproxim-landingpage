@@ -18,7 +18,7 @@ const Transform = () => {
                 Contact Us
               </p>
               <a
-                href="https://institution.kurenode.com//signup"
+                href="https://institution.kurenode.com/auth/signup"
                 target="_blank"
               >
                 <p className="text-center border border-[#297CEE] font-[500] inline-grid text-white py-[14px] px-[28px]  rounded-[5px] bg-[#297CEE]">
