@@ -1,5 +1,5 @@
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import Logo from "../assets/Qproxim logo2 1.svg";
+import Logo from "../assets/QproximlogoWhite.svg";
 import { MdMailOutline, MdOutlineLocalPhone } from "react-icons/md";
 import { BsTwitterX } from "react-icons/bs";
 
