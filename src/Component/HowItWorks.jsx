@@ -13,7 +13,7 @@ const HowItWorks = () => {
       <div className="max-w-5xl mx-5 lg:max-w-full lg:mx-[70px] py-[60px] lg:py-[170px]">
         <div className="max-w-[710px] mx-auto text-center">
           <p className="text-[#595959] font-[500] text-[26px] lg:text-[40px]">
-            How Q-Proxim Works
+            How KURENODE Works
           </p>
 
           <p className="text-[#414141] font-[400] text-[18px] lg:text-[20px] mt-[10px] lg:mt-[32px]">

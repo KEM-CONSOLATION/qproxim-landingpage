@@ -53,7 +53,7 @@ const Footer = () => {
 
         <div className=" grid  place-items-center gap-[20px] md:flex items-center md:justify-between mt-[40px] lg:mt-0">
           <div className="order-2 lg:order-1 text-[16px] font-[400] text-[#C2DAFA]">
-            <p>© 2024 Q-Proxim. All rights reserved.</p>
+            <p>© 2024 KURENODE. All rights reserved.</p>
           </div>
 
           <div className="order-1 lg:order-2 flex items-center gap-[16px] text-white">

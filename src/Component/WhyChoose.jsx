@@ -4,7 +4,7 @@ const WhyChoose = () => {
       <div className="max-w-5xl  mx-5 lg:max-w-full lg:mx-[70px] py-[60px] lg:py-[120px]">
         <div className=" max-w-[710px] mx-auto text-center">
           <p className="text-[#FFFFFF] font-[500] text-[26px] lg:text-[44px]">
-            Why Choose Q-Proxim?
+            Why Choose KURENODE?
           </p>
         </div>
         {/* <div

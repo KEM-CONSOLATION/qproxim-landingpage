@@ -101,7 +101,7 @@ const Navbar = () => {
                 className=" inline-grid text-center font-[400] text-[#126AE3]  py-[14px] lg:py-[8px] px-[24px] border rounded-[5px] border-[#105CC4]"
                 onClick={() => setOpen(true)}
               >
-                <a href="https://qproxim-app.netlify.app" target="_blank">
+                <a href="https://institution.kurenode.com/" target="_blank">
                   Log in
                 </a>
               </li>
@@ -110,7 +110,7 @@ const Navbar = () => {
                 onClick={() => setOpen(true)}
               >
                 <a
-                  href="https://qproxim-app.netlify.app/signup"
+                  href="https://institution.kurenode.com//signup"
                   target="_blank"
                 >
                   Sign up for free
